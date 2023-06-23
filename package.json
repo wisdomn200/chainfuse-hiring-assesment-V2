@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js", "client": "npm run start --prefix client", "server": "nodemon index.js"
+    "start": "node index.js",
+    "client": "npm run start --prefix client",
+    "server": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
     "axios": "^1.2.2",
     "bitcoinjs-lib": "^6.1.0",
     "child_process": "^1.0.2",
@@ -17,7 +20,7 @@
     "cross-fetch": "^3.1.5",
     "crypto": "^1.0.1",
     "currency-cloud": "^4.4.0",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "flutterwave-node-v3": "^1.0.12",
     "fs": "^0.0.1-security",
@@ -29,6 +32,7 @@
     "path": "^0.12.7",
     "request": "^2.88.2",
     "sqlite3": "^5.1.6",
-    "stripe": "^11.6.0"
+    "stripe": "^11.6.0",
+    "web3": "^4.0.1"
   }
 }
